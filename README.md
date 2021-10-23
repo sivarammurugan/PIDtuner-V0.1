@@ -7,7 +7,7 @@ Features
 - Supports  first order  and ramp process models.
 
 - Supports Proportional action on PV or  error  or a specific weighting between both.
-- 
+
 - Simulation of  open loop and closed loop responses.
 
 - Simulation setpoint and disturbance responses.
