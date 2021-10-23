@@ -4,12 +4,17 @@ PlantPy PID tuner version 0.1
 
 Features
 
-Supports  first order  and ramp process models
-Supports Proportional action on PV or  error  or a specific weighting between both.
-Simulation of  open loop and closed loop responses.
-Simulation setpoint and disturbance responses.
-PID algorithm used is  non-interactive , derivative on PV. No derivative filtering in this version.
-Anti reset windup implemented .MV minimum and maximum clamped at 0 and 100% respectively.
+- Supports  first order  and ramp process models.
+
+- Supports Proportional action on PV or  error  or a specific weighting between both.
+- 
+- Simulation of  open loop and closed loop responses.
+
+- Simulation setpoint and disturbance responses.
+
+- PID algorithm used is  non-interactive , derivative on PV. No derivative filtering in this version.
+
+- Anti reset windup implemented .MV minimum and maximum clamped at 0 and 100% respectively.
 
 Usage
 
