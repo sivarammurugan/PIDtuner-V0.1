@@ -3,6 +3,7 @@
 PlantPy PID tuner version 0.1
 
 Features
+
 Supports  first order  and ramp process models
 Supports Proportional action on PV or  error  or a specific weighting between both.
 Simulation of  open loop and closed loop responses.
@@ -11,6 +12,7 @@ PID algorithm used is  non-interactive , derivative on PV. No derivative filteri
 Anti reset windup implemented .MV minimum and maximum clamped at 0 and 100% respectively.
 
 Usage
+
 Click on the Process model header to expand . Choose the type of the process. Default is first order process . Check “Ramp” button if it is a ramp process. 
 Enter process gain, time constant and delay . If the process is ramp, the time constant is not applicable and it is hidden. 
 The units of parameters dont matter, but they have to be consistent.  if the process model parameters are entered in time units of minutes, the PID parameters should be interpreted in minutes . If entered in “Seconds” , PID parameters should be interpreted in time units of seconds. 
