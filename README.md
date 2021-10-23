@@ -29,7 +29,7 @@ Click on the disturbance model and Enter the disturbance model parameters if dis
 
 Enter the set point weighting .  Some DCS vendors  like Schneider Electric  Foxboro allow to enter the setpoint weighting  in the range of 0 to 1 (SPLLAG parameter) , for the proportional action. 
 
-0  is the  proportional action on PV. Similar I-PD algorithm in Yokogawa DCS.  
+0  is the  proportional action on PV. Similar to I-PD algorithm in Yokogawa DCS.  
 1 - is the proportional action  on error.  similar to PI-D algorithm in Yokogawa DCS
 
 Choose the number of steps to simulate.
